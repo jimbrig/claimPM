@@ -139,7 +139,7 @@ library(webshot)
 options(scipen = 999)
 
 # load data
-claims <- qs::qread("data/model-claims.qs")
+claims <- qs::qread("model-claims.qs")
 
 # development age to project from
 # e.g. if I set this to 18 I will use information available
